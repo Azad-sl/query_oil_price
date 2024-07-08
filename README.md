@@ -1,4 +1,5 @@
 # query_oil_price
-cow项目插件，油价查询
-[image-951.png](https://postimg.cc/HjmwZNXH)
-![image](https://github.com/Azad-sl/query_oil_price/assets/85327306/acaa5855-3fa9-49a0-8796-9f9cae1b3435)
+cow项目插件，油价查询 感谢[大米API](https://api.qqsuu.cn/)
+![image](https://github.com/Azad-sl/query_oil_price/assets/85327306/371a14b8-bf86-49b8-9498-b698141b54f0)
+
+
