@@ -5,7 +5,7 @@ from bridge.context import ContextType
 from bridge.reply import Reply, ReplyType
 from common.log import logger
 
-# 新的油价查询API的基础URL
+# 感谢大米API
 OIL_PRICE_API_URL = "https://api.qqsuu.cn/api/dm-oilprice"
 
 @plugins.register(name="query_oil_price",
@@ -21,7 +21,7 @@ class query_oil_price(Plugin):
         logger.info(f"[{__class__.__name__}] inited")
 
     def get_help_text(self, **kwargs):
-        help_text = "发送【油价 对应省份】查询对应省份的油价"
+        help_text = "发送【油价 对应省区】查询对应省份的油价（不要添加“省”字）"
         return help_text
 
     def on_handle_context(self, e_context: EventContext):
